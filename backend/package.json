@@ -1,0 +1,21 @@
+{
+  "name": "solana-token-history-backend",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24" },
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env --watch index.js",
+    "start": "node --env-file-if-exists=.env index.js",
+    "lint": "standard",
+    "test": "node --test test/*.test.js"
+  },
+  "dependencies": {
+    "@fastify/autoload": "^6.0.0",
+    "@fastify/rate-limit": "^10.3.0",
+    "bs58": "^6.0.0",
+    "fastify": "^5.6.0",
+    "fastify-plugin": "^5.0.0",
+    "jsonwebtoken": "^9.0.3"
+  },
+  "devDependencies": { "standard": "^17.1.2" }
+}
