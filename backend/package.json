@@ -1,6 +1,7 @@
 {
   "name": "solana-token-history-backend",
   "private": true,
+  "license": "MIT",
   "type": "module",
   "engines": { "node": ">=24" },
   "scripts": {

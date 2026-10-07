@@ -2,6 +2,10 @@
 
 Separate Preact/Vite frontend and Fastify backend, using StandardJS. The backend calls the **production** [Solana Index API](https://solanaindex.top/api-reference) directly, with a server-side Bearer key. No mock balances or local indexer are used by the application.
 
+## License
+
+Licensed under the [MIT License](LICENSE).
+
 ## Run
 
 Requires Node.js 24 or later.
